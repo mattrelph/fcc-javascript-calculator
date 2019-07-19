@@ -1,0 +1,161 @@
+<div  class="container-fluid text-center">
+	<div id="outerbox" class="row">
+		<div class="col-xs-4 text-center">
+		</div>
+		<div id="calculator" class="col-xs-4 text-center">
+			<div  class="row">
+				<!--div class="col-xs-1 text-center">
+				</div>-->
+				<div id="output" class="col-xs-12 text-right">
+					<div id="currentIn" class="mainScreen">
+						<span>0</span>
+					</div>
+					<div id="allIn" class="subScreen">
+						<span>0</span>
+					</div>
+				</div>
+
+				<!--<div class="col-xs-1 text-center">
+				</div>-->
+			</div>		
+			<div class="row keypad">
+				<div class="col-xs-1 text-center">
+				</div>
+				<div  class="col-xs-1 text-center ">
+					<button id="buttonAC" onclick="convert('a')" type="button" class="btn btn-danger btn-lg ">AC</button>
+				</div>
+				<div class="col-xs-1 text-center">
+				</div>
+				<div  class="col-xs-1 text-center button">
+					<button id="buttonCE" onclick="convert('c')" type="button" class="btn btn-danger btn-lg ">CE</button>
+				</div>
+				<div class="col-xs-1 text-center">
+				</div>				
+				<div  class="col-xs-1 text-center button">
+					<button id="buttonDiv" onclick="convert('÷')" type="button" class="btn btn-warning btn-lg ">÷</button>
+				</div>
+				<div class="col-xs-1 text-center">
+				</div>
+				<div  class="col-xs-1 text-center button">
+					<button id="buttonMult" onclick="convert('×')" type="button" class="btn btn-warning btn-lg ">×</button>
+				</div>				
+				<div class="col-xs-1 text-center">
+				</div>
+			</div>				
+			<div class="row keypad">
+				<div class="col-xs-1 text-center">
+				</div>
+				<div  class="col-xs-1 text-center ">
+					<button id="button7" onclick="convert('7')" type="button" class="btn btn-primary btn-lg ">7</button>
+				</div>
+				<div class="col-xs-1 text-center">
+				</div>
+				<div  class="col-xs-1 text-center button">
+					<button id="button8" onclick="convert('8')" type="button" class="btn btn-primary btn-lg ">8</button>
+				</div>
+				<div class="col-xs-1 text-center">
+				</div>				
+				<div  class="col-xs-1 text-center button">
+					<button id="button9" onclick="convert('9')" type="button" class="btn btn-primary btn-lg ">9</button>
+				</div>
+				<div class="col-xs-1 text-center">
+				</div>
+				<div  class="col-xs-1 text-center button">
+					<button id="buttonPlus" onclick="convert('+')" type="button" class="btn btn-warning btn-lg ">+</button>
+				</div>				
+				<div class="col-xs-1 text-center">
+				</div>
+			</div>	
+			<div class="row keypad">
+				<div class="col-xs-1 text-center">
+				</div>
+				<div  class="col-xs-1 text-center ">
+					<button id="button4" onclick="convert('4')" type="button" class="btn btn-primary btn-lg ">4</button>
+				</div>
+				<div class="col-xs-1 text-center">
+				</div>
+				<div  class="col-xs-1 text-center button">
+					<button id="button5" onclick="convert('5')" type="button" class="btn btn-primary btn-lg ">5</button>
+				</div>
+				<div class="col-xs-1 text-center">
+				</div>				
+				<div  class="col-xs-1 text-center button">
+					<button id="button6" onclick="convert('6')" type="button" class="btn btn-primary btn-lg ">6</button>
+				</div>
+				<div class="col-xs-1 text-center">
+				</div>
+				<div  class="col-xs-1 text-center button">
+					<button id="buttonMinus" onclick="convert('-')" type="button" class="btn btn-warning btn-lg ">-</button>
+				</div>				
+				<div class="col-xs-1 text-center">
+				</div>
+			</div>		
+			<div class="row keypad">
+				<div class="col-xs-1 text-center">
+				</div>
+				<div  class="col-xs-1 text-center ">
+					<button id="button1" onclick="convert('1')" type="button" class="btn btn-primary btn-lg ">1</button>
+				</div>
+				<div class="col-xs-1 text-center">
+				</div>
+				<div  class="col-xs-1 text-center button">
+					<button id="button2" onclick="convert('2')" type="button" class="btn btn-primary btn-lg ">2</button>
+				</div>
+				<div class="col-xs-1 text-center">
+				</div>				
+				<div  class="col-xs-1 text-center button">
+					<button id="button3" onclick="convert('3')" type="button" class="btn btn-primary btn-lg ">3</button>
+				</div>
+				<div class="col-xs-1 text-center">
+				</div>
+			
+				<!--<div  class="col-xs-1 text-center button">
+					<button id="buttonSqrt" onclick="convert('√')" type="button" class="btn btn-warning btn-lg ">√</button>
+				</div>-->	
+				<div  class="col-xs-1 text-center button">
+					<button id="buttonSign" onclick="convert('±')" type="button" class="btn btn-warning btn-lg ">±</button>
+				</div>				
+				<div class="col-xs-1 text-center">
+				</div>
+			</div>	
+			<div class="row keypad">
+				<div class="col-xs-1 text-center">
+				</div>
+				<div  class="col-xs-1 text-center ">
+					<button id="button0" onclick="convert('0')" type="button" class="btn btn-primary btn-lg ">0</button>
+				</div>
+				<div class="col-xs-1 text-center">
+				</div>
+				<div  class="col-xs-1 text-center button">
+					<button id="buttonDec" onclick="convert('.')" type="button" class="btn btn-primary btn-lg ">.</button>
+				</div>
+				<div class="col-xs-1 text-center">
+				</div>	
+				<div class="col-xs-1 text-center">
+				</div>					
+				<div class="col-xs-1 text-center">
+				</div>
+				<div  class="col-xs-1 text-center button">
+					<button id="buttonEquals" onclick="convert('=')" type="button" class="btn btn-success btn-lg ">=</button>
+				</div>				
+				<div class="col-xs-1 text-center">
+				</div>
+			</div>				
+		</div>
+
+		<div class="col-xs-4 text-center">
+		</div>
+	</div>
+	<!--<div class="row">
+		<div class="col-xs-2 text-center">
+		</div>
+		<div class="col-xs-4 text-center">
+		</div>
+		<div class="col-xs-4 text-center">
+		</div>
+	</div>
+	-->
+</div>
+<footer>
+  <p class="small text-center">Coded by Matthew Relph</p>
+</footer>

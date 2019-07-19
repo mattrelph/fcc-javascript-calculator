@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+	
+body {
+  background-color: White;
+  margin-top: 65px;
+  font-family: "Courier", "monospace";
+
+}
+
+footer {
+  margin-top: 65px;
+  background-color: Black;
+  color: White;
+  height: 50px;
+  width: 100%;
+}
+
+#calculator {
+	color: White;
+	background-color: Grey;
+	text-align: center;
+  width: 325px;
+}
+
+#output {
+
+	font-family: 'Audiowide', cursive;
+	background-color: Black;
+	color: White;	
+	height: 100px;  
+	width: 100%;
+  
+}
+
+#button{
+	color: White;
+	background-color: Red;
+
+}
+
+
+
+.mainScreen{
+  font-size: 4rem;	
+  width: 100%;
+}
+
+.subScreen{
+  font-size: 1rem;
+  width: 100%;
+}
+
+
+.keypad{
+	/*width: 400px;
+	height: 400px;*/
+	margin-top: 10px;
+	margin-bottom: 10px;
+	background-color: Grey;	
+	font-family: 'Roboto Mono', monospace;	
+}
